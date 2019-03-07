@@ -1,0 +1,9 @@
+body{
+    background-color: #f2f2f5;
+}
+
+.background-alt {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: white;
+  }
