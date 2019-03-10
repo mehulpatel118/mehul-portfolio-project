@@ -11,6 +11,9 @@ body{
     
 }
 
+.education, .skills{
+  padding:6% 0;
+}
 
 .background-alt {
     min-height: 200px;
@@ -48,12 +51,17 @@ body{
 	
 
 }
-
+.project-link{
+  color:blue;
+  font-weight: bold;
+}
 .nav-fixed{
   display: block;
   position: fixed;
   width: 100%;
   background-color:black;
+  z-index:100;
+
 }
 nav {
     float: right;
@@ -111,7 +119,7 @@ h2 {
   font-weight: bold;
 }
 
-#skills li {
+.skills li {
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
@@ -135,31 +143,27 @@ p{
   line-height:1.5;
 }
 
-#contact {
+.contact {
   background-color: #42a4f4;
   color:white;
 }
 
-#_replyto{
+._replyto{
   display:block;
   margin:auto;
   width:80%;
 }
 
-#_replyto{
-  display:block;
-  margin:auto;
-  width:80%;
-}
 
-#message{
+
+.message{
   display:block;
   margin:auto;
   width:80%;
   height:150px;
 }
 
-#contact-form button {
+.contact-form button {
   display: block;
   width: 80%;
   margin:auto;
@@ -191,7 +195,7 @@ form{
 }
 
 
-#experience-timeline .vtimeline-point {
+.experience-timeline .vtimeline-point {
   list-style-type: none;
   position: relative;
   width: 6px;
@@ -200,7 +204,7 @@ form{
   background: #fff;
 }
  
-#experience-timeline .vtimeline-point::before {
+.experience-timeline .vtimeline-point::before {
   content: '';
   position: absolute;
   left: 50%;
@@ -212,7 +216,7 @@ form{
   background: inherit;
 }
 
-#experience-timeline .vtimeline-point .vtimeline-block {
+.experience-timeline .vtimeline-point .vtimeline-block {
   position: relative;
   bottom: 0;
   width: 300px;
@@ -233,6 +237,7 @@ form{
   overflow: hidden;
   background: #fff;
   border-radius: 4px;
+  z-index:0;
 }
 
 .shadow-large {
@@ -263,7 +268,7 @@ max-width:300px;
   .education-block {
     margin:auto;
   }
-  #experience-timeline .vtimeline-point {
+  .experience-timeline .vtimeline-point {
     
     margin-left:40%;
     margin-right:auto;

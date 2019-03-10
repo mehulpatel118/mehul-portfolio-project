@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -16,7 +16,7 @@
         <header>
             <nav>
                 <a href="#" id="menu-icon"></a>
-                <ul id="menu" class="shadow">
+                <ul class="menu" class="shadow">
                     <li>
                         <a href="#about">About</a>
                     </li>
@@ -64,8 +64,10 @@
                       Hello, I am Mehul Patel, <b>designer and full-stack developer.</b> I graduated from Rutgers University in 2015 with a degree in computer science. Since then,
                        I have been a technology consultant focused on development. I particularly enjoy the feeling of solving difficult algorithm and logic problems, coding them, and watching them come to life. 
                       <br>
-                      I am constantly looking for new challenges and have previously worked on various technology projects across the country. I enjoy coding for the problem solving aspect. 
+                      I am constantly looking for new challenges and have previously worked on various technology projects across the country. I enjoy coding for the problem solving aspect as well as the camaraderie built when solving problems in a team. 
                       Follow me on <a class ="about-link" href ="https://www.linkedin.com/in/mehul-patel-705b9083">LinkedIn</a> to know more about me and my current projects.
+                      <br>
+                      Outside of coding I enjoy weightlifting and playing football (my favorite team is the Minnesota Vikings).
                     </p>
                 </section>
                
@@ -74,29 +76,21 @@
     </section>
     <!-- End #about -->
 
-    <div id="experience" class="background-alt">
+    <div class="experience background-alt">
         <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
+        <div class="experience-timeline">
             <div class="vtimeline-point">
                 <div class="vtimeline-icon">
-                    <i class="fa fa-map-marker"></i>
                 </div>
             </div>
             <div class="vtimeline-point">
-                <div class="vtimeline-icon">
-                    <i class="fa fa-map-marker"></i>
+                <div class="vtimeline-icon">           
                 </div>
                 <div class="vtimeline-block">
                     <span class="vtimeline-date">September 2015 – February 2019</span>
                     <div data-date="August 2016 – December 2016" class="vtimeline-content">
                         <h3>Deloitte</h3>
                         <h4>Technology Consultant</h4>
-                        <p>
-                            <ul>
-                            <li>Dummy Text</li>
-                            <li>Dummy Text</li>
-                            </ul>
-                        </p>
                     </div>
                 </div>
             </div>
@@ -104,7 +98,7 @@
     </div>
     <!-- End #experience -->
 
-    <div id="education">
+    <section class="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
             <h3>Rutgers University - New Brunswick</h3>
@@ -114,15 +108,10 @@
               <ul>
                 <li>2nd Major in Economics</li>
                 <li>Dean's List: Every Semester</li>
-                <li><b>Projects: </b>
-                    <ul>
-                        <li>Dummy Text</li>
-                        <li>Dummy Text</li>
-                    </ul>
-                </li>
+
               </ul>
             </p>
-        </div>
+        </section>
         <!-- End .education-block -->
 
       
@@ -130,33 +119,29 @@
     </div>
     <!-- End #education -->
 
-    <div id="projects" class="background-alt">
+    <section id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
         <div class="container">
-            <div class="row">
-
                 <div class="project shadow-large">
                     <div class="project-image">
                     <img class="quiz-image" src="images/quiz-icon.png" data-src="images/emc2020.png" alt="emc 2020"/> 
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Dummy Project</h3>
+                        <h3>NBA Quiz Application</h3>
                         <p>
-                            Dummy Text
+                            This project was created as a means for me to develop and learn JQuery, JS, and HTML/CSS skills. I enjoy the NBA so I created a quiz that can be shared with others on the history of the league.
                         </p>
-                        <a href="">View Project</a>
+                        <a class ="project-link" href="https://thinkful-ei-bee.github.io/mehul-quonn-quiz-app/">View Project</a>
+                        <a class ="project-link" href="https://github.com/thinkful-ei-bee/mehul-quonn-quiz-app">View GitHub Repo</a>
                     </div>
-                    <!-- End .project-info -->
+           
                 </div>
-                <!-- End .project -->
-                <!-- End .project -->
-            </div>
         </div>
-    </div>
+    </section>
     <!-- End #projects -->
 
-    <div id="skills">
+    <section class="skills">
         <h2 class="heading">Skills</h2>
         <ul class ="skills-list">
             <li>JavaScript</li>
@@ -169,25 +154,24 @@
             <li>C++</li>
             <li>MySQL</li>
         </ul>
-    </div>
+    </section>
     <!-- End #skills -->
 
-    <div id="contact">
+    <section class="contact">
         <h2>Get in Touch</h2>
-        <div id="contact-form">
+        <div class="contact-form">
             <form method="POST" action="https://formspree.io/mehulpatel118@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" id="_replyto" aria-label="Your email" placeholder="Your email" required>
-                <textarea name="message" id="message" aria-label="Your message" placeholder="Your message" required></textarea>
+                <input type="email" name="_replyto" class="_replyto" aria-label="Your email" placeholder="Your email" required>
+                <textarea name="message" class="message" aria-label="Your message" placeholder="Your message" required></textarea>
                 <button type="submit">Send</button>
             </form>
         </div>
         <!-- End #contact-form -->
-    </div>
+    </section>
     <!-- End #contact -->
 
     <footer>
-     
                     <ul class ="links">
                         <li class="link-1">
                             <a class="link" name="github-link" href="https://github.com/mehulpatel118">Github</a>
@@ -197,8 +181,12 @@
                         <li class="link-1">
                             <a name="linkedin-link" class = "link" href="https://www.linkedin.com/in/mehul-patel-705b9083">LinkedIn</a>
                         </li>
+
+                        <li class="link-1">
+                            <a name="direct-email-link" class = "link" href="mailto:mehulpatel118@gmail.com">E-mail Me</a>
+                        </li>
+
                     </ul>
-  
     </footer>
     <!-- End footer -->
 
