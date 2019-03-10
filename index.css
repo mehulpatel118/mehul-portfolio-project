@@ -11,13 +11,14 @@ body{
     
 }
 
+
 .background-alt {
     min-height: 200px;
     padding: 6% 0;
     background-color: #f2f2f5;
   }
 
-  #lead {
+  .lead {
     background-image: url("images/blue-header-background.jpg");
     background-position: center;
     color: white;
@@ -95,7 +96,9 @@ nav:hover ul {
 
 }
 
-
+.heading{
+margin:auto;
+}
 
 h2 {
   display: block;
@@ -225,7 +228,7 @@ form{
  
 .project {
   position: relative;
-  max-width: 900px;
+  max-width: 300px;
   margin: 0 auto 30px auto;
   overflow: hidden;
   background: #fff;
@@ -236,6 +239,75 @@ form{
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 
-.lazy{
+.quiz-image{
 width:100%;
+max-width:300px;
+}
+
+.link-1{
+  display:inline;
+}
+.link{
+  display:inline;
+  color:black;
+}
+
+.about-link{
+  color:black;
+}
+
+@media only screen and (min-width: 750px) {
+  .name{
+    font-size:30px;
+  }
+  .education-block {
+    margin:auto;
+  }
+  #experience-timeline .vtimeline-point {
+    
+    margin-left:40%;
+    margin-right:auto;
+
+  }
+
+  .skills-list{
+    margin-left:15%;
+  }
+
+  nav{
+    background-image: none;
+    color:white;
+  }
+
+  nav ul, nav:active ul { 
+
+    display: inline;
+  
+      position: fixed;
+      background: none;
+      right: 160px;
+      top: -15px;
+      color:white;
+      border-radius: none;
+      border: none;
+      z-index: 1;
+
+  
+
+}
+
+a{
+  color:white;
+  margin-bottom:30px;
+}
+
+nav li {
+  display:inline;
+  text-align: center;
+  margin: 0;
+
+
+}
+
+
 }

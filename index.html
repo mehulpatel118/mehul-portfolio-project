@@ -3,89 +3,75 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="Description" content="Mehul Patel's portfolio website.">
+    <meta name="Description" content="Mehul Patel's Portfolio website.">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <title>Mehul's Portfolio</title>
-    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet"> -->
-    <!-- <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
     <link href="index.css" rel="stylesheet">
 </head>
 
 <body>
     
-    <div class="nav-fixed" >
-        <!-- End #mobile-menu-toggle -->
+    <section class="nav-fixed" >
         <header>
-
-        <nav>
-            <a href="#" id="menu-icon"></a>
-            <ul id="menu" class="shadow">
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#experience">Experience</a>
-                </li>
-                <li>
-                    <a href="#education">Education</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
+            <nav>
+                <a href="#" id="menu-icon"></a>
+                <ul id="menu" class="shadow">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
-    </div>
+    </section>
+
     <!-- End header -->
 
-    <div id="lead">
+    <section class="lead">
         <div id="lead-content">
-            <h1 class="animate-pop-in">Mehul Patel</h1>
-            <h2 class="animate-pop-in">Full Stack Developer</h2>
+            <h1 class="name">Mehul Patel</h1>
+            <h2 class="role">Full Stack Developer</h2>
             <p class="resume1 animate-pop-in"><a href="" class="btn-rounded-white">Download Resume(PDF)</a></p>
             <p class="resume2"><a href="" class="btn-rounded-white">Download Resume(docx)</a></p>
         </div>
-        <!-- End #lead-content -->
-
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
+    </section>
     <!-- End #lead -->
 
-    <div id="about">
+    <section class="about">
         <div class="container" >
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
+            <div class="row-about">
+                
+                <h2 class="heading-about">About Me</h2>
+                
+                
                     <section class = "about-me">
-                    <p>
-                      Hello, I am Mehul Patel, <b>designer and full-stack developer.</b> I graduated Rutgers University in 2015 with a degree in computer science. Since then,
-                       I have been a technol                       I particularly enjoy the feeling of solving difficult algorithm and logic problems, coding them, and watching them come to life. 
+                    <p class ="about-p">
+                      Hello, I am Mehul Patel, <b>designer and full-stack developer.</b> I graduated from Rutgers University in 2015 with a degree in computer science. Since then,
+                       I have been a technology consultant focused on development. I particularly enjoy the feeling of solving difficult algorithm and logic problems, coding them, and watching them come to life. 
                       <br>
-                      I am constantly lookogy consultant working on various technology projects across the country. I enjoy coding for the problem solving aspect. 
-ing for more and more complex projects to continue to develop my skills, which allows me to write better and better code. 
-                      Follow me on <a href ="https://www.linkedin.com/in/mehul-patel-705b9083">LinkedIn</a> to know more about me and my current projects.
+                      I am constantly looking for new challenges and have previously worked on various technology projects across the country. I enjoy coding for the problem solving aspect. 
+                      Follow me on <a class ="about-link" href ="https://www.linkedin.com/in/mehul-patel-705b9083">LinkedIn</a> to know more about me and my current projects.
                     </p>
                 </section>
-                </div>
+               
             </div>
         </div>
-    </div>
+    </section>
     <!-- End #about -->
 
     <div id="experience" class="background-alt">
@@ -151,7 +137,7 @@ ing for more and more complex projects to continue to develop my skills, which a
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                    <img class="lazy" src="images/quiz-icon.png" data-src="images/emc2020.png" alt="emc 2020"/> 
+                    <img class="quiz-image" src="images/quiz-icon.png" data-src="images/emc2020.png" alt="emc 2020"/> 
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -172,7 +158,7 @@ ing for more and more complex projects to continue to develop my skills, which a
 
     <div id="skills">
         <h2 class="heading">Skills</h2>
-        <ul>
+        <ul class ="skills-list">
             <li>JavaScript</li>
             <li>Python</li>
             <li>Laravel</li>
@@ -201,29 +187,18 @@ ing for more and more complex projects to continue to develop my skills, which a
     <!-- End #contact -->
 
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright" id="copyright">
-<!-- 					<p>Copyright &copy;&nbsp; <span id="CR-year">2019</span>&nbsp;Mehul Patel</p> -->       
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a name="github-link" href="https://github.com/mehulpatel118"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
+     
+                    <ul class ="links">
+                        <li class="link-1">
+                            <a class="link" name="github-link" href="https://github.com/mehulpatel118">Github</a>
 
-                        <li>
-                            <a name="linkedin-link" href="https://www.linkedin.com/in/mehul-patel-705b9083"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        </li>
+                       
+                        <li class="link-1">
+                            <a name="linkedin-link" class = "link" href="https://www.linkedin.com/in/mehul-patel-705b9083">LinkedIn</a>
                         </li>
                     </ul>
-                </div>
-            </div>
-        </div>
+  
     </footer>
     <!-- End footer -->
 
